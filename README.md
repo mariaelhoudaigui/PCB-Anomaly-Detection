@@ -1,16 +1,26 @@
+
+
 # **Description**:
-This project is designed to identify defects on PCB (Printed Circuit Boards) using advanced computer vision and deep learning techniques. The application focuses on automating the detection of faults to improve quality control in industrial environments. It operates entirely through scripts without requiring a graphical user interface, ensuring efficient and reliable processing.
+This project is designed to identify defects on PCBs (Printed Circuit Boards) using computer vision and deep learning techniques. The application automates the detection of faults , improving quality control in industrial environments.
 
 # **Features**:
+- **Defect Detection in PCB Images**: Analyze static images of PCBs to identify and localize defects, including:
+  - **Mouse Bite**: Small irregularities or gaps on the PCB edges.
+  - **Missing Hole**: Missing or incomplete drill holes.
+  - **Short**: Unintended connections between conductive paths.
+  
+- **Batch Processing**: Efficiently process multiple PCB images in a single run, generating reports for entire datasets.
 
-Defect Detection in PCB Images: Analyze static images of PCBs to identify and localize defects, such as missing components, misalignments, or soldering issues.
-Batch Processing: Process multiple images in a single run, generating defect reports for entire datasets.
-Exportable Results: Save annotated images and defect logs for further analysis and reporting.
-High Accuracy: Leverages a fine-tuned YOLOv8 (You Only Look Once) model to ensure precise detection of various types of defects.
+- **Exportable Results**: Save annotated images with bounding boxes and detailed defect logs for further analysis or reporting.
+
+- **High Accuracy**: Leverages a fine-tuned YOLOv8 Nano model trained for 100 epochs, achieving precise detection while maintaining computational efficiency.
+
+---
 
 # **Technologies Used**:
 
-Roboflow: Used for dataset preparation and annotation, creating a high-quality training set.
-YOLOv8 (Ultralytics): A cutting-edge object detection model, fine-tuned on a custom PCB defect dataset for optimal performance.
-OpenCV: For preprocessing PCB images and post-processing detection results.
-Python Scripts: The application is implemented in Python, providing a flexible and script-based workflow for defect detection.
+- **Roboflow**: Utilized for preparing and annotating the PCB dataset, ensuring high-quality input data for model training.
+- **YOLOv8 (Ultralytics)**: A state-of-the-art object detection model. The version (`yolov8n.pt`) was fine-tuned on a custom dataset with 3 defect classes.
+- **OpenCV**: Used for preprocessing PCB images and visualizing detection results.
+
+
