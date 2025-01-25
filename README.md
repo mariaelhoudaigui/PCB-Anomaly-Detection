@@ -1,7 +1,7 @@
 
 
 # **Description**:
-This project is designed to identify defects on PCBs (Printed Circuit Boards) using computer vision and deep learning techniques. The application automates the detection of faults , improving quality control in industrial environments.
+This project automates the detection of defects in Printed Circuit Boards (PCBs) using computer vision and deep learning techniques. The application is designed to enhance quality control in industrial production lines, improving efficiency and reducing human error. By leveraging the YOLOv8 object detection model, it can quickly and accurately identify faults in PCB images, significantly improving the overall production process.
 
 # **Features**:
 - **Defect Detection in PCB Images**: Analyze static images of PCBs to identify and localize defects, including:
@@ -9,13 +9,10 @@ This project is designed to identify defects on PCBs (Printed Circuit Boards) us
   - **Missing Hole**: Missing or incomplete drill holes.
   - **Short**: Unintended connections between conductive paths.
   
-- **Batch Processing**: Efficiently process multiple PCB images in a single run, generating reports for entire datasets.
+- **Batch Processing**:The tool supports processing multiple PCB images at once, making it suitable for large-scale industrial environments. This feature allows users to run the detection on an entire dataset, saving time and resources.
+- **Exportable Results**: Annotated images are generated with bounding boxes highlighting defects, along with detailed logs containing defect descriptions, making it easier to document, analyze, and report.
+- **High Accuracy**: The model, based on YOLOv8 Nano, has been fine-tuned for 100 epochs, ensuring precise detection while maintaining computational efficiency. This lightweight version of YOLO is designed for use in industrial settings where quick and accurate results are essential.
 
-- **Exportable Results**: Save annotated images with bounding boxes and detailed defect logs for further analysis or reporting.
-
-- **High Accuracy**: Leverages a fine-tuned YOLOv8 Nano model trained for 100 epochs, achieving precise detection while maintaining computational efficiency.
-
----
 
 # **Technologies Used**:
 
