@@ -21,3 +21,7 @@ This project automates the detection of defects in Printed Circuit Boards (PCBs)
 - **OpenCV**: Used for preprocessing PCB images and visualizing detection results.
 
 
+# **Demonstration**
+🎥 **Demo Video**
+
+[▶️ Watch the demo](gradio.mp4)
