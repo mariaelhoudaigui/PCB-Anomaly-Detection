@@ -22,6 +22,4 @@ This project automates the detection of defects in Printed Circuit Boards (PCBs)
 
 
 # **Demonstration**
-🎥 **Demo Video**
-
-[▶️ Watch the demo](gradio.mp4)
+[image](pcb.png)
