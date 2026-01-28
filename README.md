@@ -22,4 +22,5 @@ This project automates the detection of defects in Printed Circuit Boards (PCBs)
 
 
 # **Demonstration**
-[image](pcb.png)
+<img src="pcb.png" alt="Homepage">
+
